@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: gitops-platform
-        image: gitops-platform:latest
-        imagePullPolicy: Never
+        imagePullPolicy: Always
+        image: beliash1/gitops-platform:latest
         ports:
         - containerPort: 5000
 
